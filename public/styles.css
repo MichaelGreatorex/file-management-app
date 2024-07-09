@@ -1,8 +1,62 @@
 body {
     font-family: Arial, sans-serif;
-    padding: 20px;
-    max-width: 600px;
-    margin: auto;
+    height: 100vh;
+}
+
+#pageLayout {
+    display:flex;
+}
+
+#LHcolumn {
+    font-family: Arial, sans-serif;
+    display: flex;
+    width: 20vw
+}
+
+#sidebar {
+    background-color: #f8f9fa;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    height: 100vh;
+    width: 20vw
+}
+
+#filesButton {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+}
+
+#filesButton:hover {
+    background-color: #0056b3;
+}
+
+#colbtn {
+    padding: 10px 15px;
+    margin: 0 -15px;
+    border: none;
+    cursor: pointer;
+    width: 20vh;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+}
+
+#colbtn:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-container {
+    display: none;
+    background-color: #f1f1f1;
+    padding-left: 15px;
+}
+
+.dropdown-btn {
+    font-weight: bold;
 }
 
 h1 {
